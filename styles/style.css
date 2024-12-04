@@ -44,3 +44,20 @@ footer a:hover {
 .cards-container {
     padding-bottom: 8rem;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Permitindo que o conteúdo principal cresça */
+.content {
+    flex-grow: 1;
+}
+
+/* Ajustando o footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
