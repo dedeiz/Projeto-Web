@@ -1,0 +1,46 @@
+.logo {
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.cards {
+
+    display: flex;
+    /* Ativa o flexbox */
+    justify-content: space-between;
+    /* Espaça os itens igualmente */
+    align-items: center;
+    /* Alinha os itens verticalmente ao centro */
+    height: 100vh;
+    /* Faz a div ocupar toda a altura da tela */
+    padding: 0 20px;
+    /* Espaço nas laterais da div */
+}
+
+.navbar-brand {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2rem;
+    /* Ajusta o tamanho da fonte */
+}
+
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.cards-container {
+    padding-bottom: 8rem;
+}
